@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mps-watch"
-version = "0.1.1"
+version = "0.1.2"
 description = "Apple Silicon MPS (Metal Performance Shaders) memory monitoring tool for PyTorch."
 readme = "README.md"
 authors = [
@@ -20,6 +20,7 @@ dependencies = [
     "torch",
     "rich",
     "psutil",
+    "numpy",
 ]
 
 [project.scripts]
